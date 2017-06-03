@@ -8,7 +8,7 @@
 - side project continued, single user "Unics"
 - multi-user support, became "Unix"
 
-### Assembly to C  
+### Assembly to C
 - rewritten in C language (1972)
 - C allowed hardware independence
 
@@ -89,8 +89,8 @@ macOS /System - macOS
 macOS /Users - user home directories
 macOS /Volumes - mounted volumes
 
-## Working with Files / Dirs  
-### Naming Files  
+## Working with Files / Dirs
+### Naming Files
 - case sensitive (capitals are dumb)
 - spaces are dumb (important_file.txt)
 - extensions are nice, not required
@@ -102,14 +102,14 @@ macOS /Volumes - mounted volumes
 - cat, more, less, head tail
 - mkdir (-p -v)
 - mv - move files / folders
-- mv - *also* renames files: `mv current.name new.name`  
+- mv - *also* renames files: `mv current.name new.name`
 - cp - copy file / dir
 - rm / rmdir - remove (delete) file / dir
 
 #### Aliases / Links
 - macOS finder alias do not work like unix links!
 - hard links - `ln filetolink hardlink`
-- hard links do not break if source file is moved / deleted  
+- hard links do not break if source file is moved / deleted
 - symbolic links `ln -s filetolink symlink`
 - symlinks do break
 
@@ -159,7 +159,7 @@ macOS /Volumes - mounted volumes
 - cp - copy file / dir
 - rm / rmdir - remove (delete) file / dir
 - ln - hard link
-- ln -s - symbolic link  
+- ln -s - symbolic link
 - find - search for things
 
 
@@ -177,3 +177,8 @@ CTRL + A - move cursor to start of line
 CTRL + E - move cursor to end of line
 CTRL + U - clear all text left of cursor
 OPT + click - move cursor to click point
+
+
+## External Links
+
+* Additional *NIX usage tips can be found [here](../resources.md)
